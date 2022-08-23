@@ -15,12 +15,12 @@ body {
   body h2 {
     display: flex;
     justify-content: center;
-    margin-top: 20pxpx;
+    margin-top: 20px;
     font-family: 'DynaPuff', cursive;
     font-size: 100px;
     color: beige; }
   body button {
-    color: #fff;
+    color: beige;
     background: dodgerblue; }
 
 .redes {
@@ -62,7 +62,7 @@ body {
     color: black;
     font-family: 'DynaPuff', cursive;
     font-size: 30px;
-    background-color: white; }
+    background-color: beige; }
 
 .banerprincipal {
   display: flex;
@@ -77,7 +77,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'DynaPuff', cursive;
-    color: #ffffbc;
+    color: beige;
     border-top: #ffe606 solid 5px;
     border-right: #e5ff00 solid 5px;
     border-bottom: #ffe606 solid 5px;
@@ -100,7 +100,7 @@ body {
   background-color: black;
   text-align: center; }
   .formulario h3 {
-    color: aliceblue;
+    color: beige;
     text-align: center;
     margin-right: 0px;
     margin-left: 0px;
@@ -111,7 +111,7 @@ body {
     font-size: 40px;
     font-family: 'DynaPuff', cursive; }
   .formulario label {
-    color: aliceblue;
+    color: beige;
     text-align: center;
     font-family: 'DynaPuff', cursive;
     font-size: 40px; }
@@ -122,7 +122,7 @@ body {
     font-family: 'DynaPuff', cursive;
     color: black; }
   .formulario legend {
-    color: #fff;
+    color: beige;
     font-size: 40px;
     background-image: radial-gradient(circle at center, black 20%, yellow 80%); }
 
@@ -146,7 +146,7 @@ body {
     text-align: center;
     font-family: 'DynaPuff', cursive;
     font-size: 30px;
-    color: aliceblue; }
+    color: beige; }
 
 .testimonios {
   display: flex;
@@ -179,7 +179,7 @@ body {
   justify-content: space-around;
   margin-top: 100px;
   margin-bottom: 100px;
-  color: azure; }
+  color: beige; }
   .contenido1 img {
     width: 200px;
     height: 200px;
@@ -230,25 +230,3 @@ body {
   width: 100px;
   height: 100px;
   grid-column: initial; }
-
-@media (max-width: 400px) {
-  .menu {
-  display: none;
-      }
-  .hamburguesa img {
-      height: auto;
-      width: auto;
-  }
-
-  }
-@media (min-width: 401) {
-  .hamburguesa {
-      display: none ;
-  }
-  .hamburguesa ul {
-      display: none;
-  }
-  .hamburguesa img {
-      display: none;
-  }
-   }

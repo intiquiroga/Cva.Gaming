@@ -1,3 +1,5 @@
+//  Animaciones  //
+
 @keyframes latido {
 
 	0% {
@@ -17,7 +19,18 @@
 	}
 
 }
-    
+
+//  Animaciones  //    
+
+// Variables //
+
+$colortexto1: beige ; 
+
+// Variables //
+
+
+
+
 body{
     padding: 0px;
     margin: 0px;
@@ -26,13 +39,13 @@ body{
     h2 {
         display: flex;
         justify-content: center;
-        margin-top: 20pxpx;
+        margin-top: 20px;
         font-family: 'DynaPuff', cursive; 
         font-size: 100px;
-        color: beige;
+        color: $colortexto1;
     }
     button {
-        color: #fff;
+        color: $colortexto1 ;
         background: dodgerblue;
       }
 }
@@ -81,7 +94,7 @@ body{
         color:black;
         font-family: 'DynaPuff', cursive; 
         font-size: 30px;
-        background-color: rgb(255, 255, 255);
+        background-color: $colortexto1;
     
     }
 }
@@ -101,7 +114,7 @@ body{
         display: flex;
         justify-content: center;
         font-family: 'DynaPuff', cursive; 
-        color: rgb(255, 255, 188);
+        color: $colortexto1;
         border-top: rgb(255, 230, 6) solid 5px;
         border-right: rgb(229, 255, 0) solid 5px;
         border-bottom: rgb(255, 230, 6) solid 5px;
@@ -127,7 +140,7 @@ body{
     text-align: center;
 
     h3 {
-        color: aliceblue;
+        color: $colortexto1;
         text-align: center;
         margin-right: 0px;
         margin-left: 0px;
@@ -139,7 +152,7 @@ body{
         font-family: 'DynaPuff', cursive; 
     }
     label {
-        color: aliceblue;
+        color: $colortexto1;
         text-align: center;
         font-family: 'DynaPuff', cursive; 
         font-size: 40px;
@@ -152,7 +165,7 @@ body{
         color: rgb(0, 0, 0);
     }
     legend {
-        color: #fff;
+        color: $colortexto1;
         font-size: 40px;
         background-image: radial-gradient(circle at center,black 20%,yellow 80%);
     }
@@ -182,7 +195,7 @@ body{
         text-align: center;
         font-family: 'DynaPuff', cursive; 
         font-size: 30px;
-        color: aliceblue;
+        color: $colortexto1;
     }
 }
 .testimonios {
@@ -224,7 +237,7 @@ body{
     justify-content: space-around;
     margin-top: 100px;
     margin-bottom: 100px;
-    color: azure;
+    color: $colortexto1 ;
 
     img {
         width: 200px;
