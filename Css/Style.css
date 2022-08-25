@@ -24,6 +24,9 @@
     .content {
         display: none;
     }
+    .box img {
+      display: none;
+    }
     
 }
 

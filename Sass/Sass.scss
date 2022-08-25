@@ -1,5 +1,7 @@
 //  Animaciones  //
-
+@mixin fondo {
+    background-image: radial-gradient(circle at center,black 20%,yellow 80%);
+}
 @keyframes latido {
 
 	0% {
