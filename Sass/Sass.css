@@ -38,27 +38,27 @@ body {
     animation-timing-function: linear;
     animation-direction: alternate; }
 
-.menu {
+.menudes {
   display: flex;
   position: sticky;
   background-color: black;
   justify-content: space-between;
   column-gap: 80px;
   animation-name: animate__bounce; }
-  .menu img {
+  .menudes img {
     width: 10%;
     height: 10%;
     margin-top: 0;
     align-items: 0;
     margin-bottom: 0;
     margin-left: 0; }
-  .menu ul {
+  .menudes ul {
     display: flex;
     align-items: flex-end;
     column-gap: 40px;
     font-size: 20px;
     margin-right: 100px; }
-  .menu a {
+  .menudes a {
     color: black;
     font-family: 'DynaPuff', cursive;
     font-size: 30px;
