@@ -1,6 +1,6 @@
 //  Animaciones  //
 @mixin fondo {
-    background-image: radial-gradient(circle at center,black 20%,yellow 80%);
+    background-image:url(../Image/fondotesti.jpg);
 }
 @keyframes latido {
 
@@ -36,7 +36,7 @@ $colortexto1: beige ;
 body{
     padding: 0px;
     margin: 0px;
-    background-image: radial-gradient(circle at center,black 20%,yellow 80%);
+    @include fondo;
     
     h2 {
         display: flex;
@@ -56,17 +56,19 @@ body{
     display: flex;
     justify-content: flex-end;
     column-gap: 100px;
+    margin-top: 50px;
+    background-color: black;
 
     img {
-        margin-top: 140px;
+        margin-top: 0px;
         width: 80px;
         height: 80px;
-        background-image: radial-gradient(circle at center,rgb(141, 20, 20) 20%,black 20% , yellow 60%);
         animation-name: latido;
         animation-duration: 1s;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
         animation-direction: alternate;
+        background-color: transparent;
     }
 }
 .menudes {
@@ -76,10 +78,13 @@ body{
     justify-content: space-between;
     column-gap: 80px;
     animation-name: animate__bounce ;
+    align-content: space-around;
+    align-items: flex-end;
+}
+    
 
     img {
-        width: 10%;
-        height: 10%;
+        width: 5%;
         margin-top: 0 ;
         align-items: 0;
         margin-bottom: 0 ;
@@ -91,37 +96,43 @@ body{
         column-gap:  40px;
         font-size: 20px;
         margin-right: 100px;
+        font-size: 120%;
     }
     a {
         color:black;
         font-family: 'DynaPuff', cursive; 
-        font-size: 30px;
+        font-size: 40px;
+        text-decoration: none;
         background-color: $colortexto1;
+       
     
     }
-}
 .banerprincipal {
      
      display: flex ;
      justify-content: space-around;
      margin-bottom: 100px;
+     flex-direction: column;
 
     img {
-        width: 50%;
-        height: 50%;
+        width: 100%;
+        height: 100%;
     }
     h1 {
-        margin-top: 200px;
-        margin-bottom: 200px;
+        margin-top: 0px;
+        margin-bottom: 0px;
         display: flex;
         justify-content: center;
         font-family: 'DynaPuff', cursive; 
-        color: $colortexto1;
+        color: black;
         border-top: rgb(255, 230, 6) solid 5px;
         border-right: rgb(229, 255, 0) solid 5px;
         border-bottom: rgb(255, 230, 6) solid 5px;
         border-left: rgb(229, 255, 0) solid 5px;
         font-size: 100px;
+        background-image: url(../Image/nft4.png);
+        background-size: 500px;
+        background-color: grey;
     
     }
 }
@@ -176,15 +187,16 @@ body{
 .juegos {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(27, 21, 21);
-    border-bottom: solid rgba(0, 0, 0, 0.548) 40px;
+    background-color: transparent;
+    margin-bottom: 10px;
+
 
     img{
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         display: flex ;
         position: relative ;
-        background-color: rgb(23, 17, 17); 
+        background-color: transparent; 
     }
 
 }
@@ -203,20 +215,19 @@ body{
 .testimonios {
 
     display: flex;
-    justify-content: space-between;
-    border-left: rgb(255, 197, 5) solid 22px;
-    border-right: rgb(255, 230, 6) solid 22px;
+    justify-content: center;
+    background-image: url(../Image/fondotesti.jpg);
 
     img{ 
 
         display: flex;
         justify-content: space-around;
         margin-top: 100px;
-        margin-left: 100px;
-        margin-right: 200px;
-        width: 100px;
-        height: 100px;
-        background-color: black;
+        margin-left: 0;
+        margin-right: 0;
+        width: 25%;
+        height: 50%;
+        background-color: transparent;
         
      }
 }
@@ -224,11 +235,12 @@ body{
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+    column-gap: 20px;
 
     p {
         text-align: center;
         font-family: 'DynaPuff', cursive; 
-        font-size: 20px;
+        font-size: 15px;
         color: black;
         background-color: black;
     }
@@ -240,16 +252,19 @@ body{
     margin-top: 100px;
     margin-bottom: 100px;
     color: $colortexto1 ;
+    align-items: center;
+    background-color: black;
 
     img {
-        width: 200px;
-        height: 200px;
+        width: 400px;
+        height: 300px;
         margin-top: 0px;
     }
     p {
         font-family: 'DynaPuff', cursive; 
-        font-size: 40px;
-    }
+        font-size: 45px;
+        width: 700px;
+        text-align: center;
     h1  {
         margin-top: 0;
         background-color: black;
@@ -264,39 +279,48 @@ body{
         text-align: center;
     }
 }
+ }
 .beneficios {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     margin-top: 90px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-
     img {
-        width: 500px;
-        height: 400px;
-        background-image: radial-gradient(circle at center,black 20%,yellow 80%);
+        width: 30%;
+        height: 300px;
     }
 }
 .beneficios2 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
     margin-bottom: 20px;
 
     img{
-        width: 300px;
+        width: 30%;
         height: 300px;
-        background-image: radial-gradient(circle at center,black 20%,yellow 80%);
     }
 }
 .contenido2  {
     display: flex;
+}
+.testimonios_h2 {
+
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    background-image: url(../Image/nft4.png);
+    background-size: 500px;
+    background-color: grey;
 }
 .flex1contacto > img {
     width: 100px;
     height: 100px;
     grid-column: initial;
     }
+ section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+ }

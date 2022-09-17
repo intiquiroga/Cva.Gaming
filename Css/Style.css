@@ -4,6 +4,9 @@
         display: none;
 
     }
+    .menutestimonios{
+      display: none;
+    }
     .menu img {
         display: none;
     }
@@ -541,8 +544,7 @@
       height: 300px;
     }
    .banerprincipal {
-        width: 0px;
-        height: 0px;
+       display: none !important;
        }  
    .banerprincipal img {
         display: none;
@@ -561,26 +563,34 @@
         display: none;
   }
   .beneficios {
-    flex-wrap: wrap;
-    width: 50%;
-    height: 50%;
+    flex-direction: column;
+    width: 100% ;
+    height: 100% ;
+    justify-content: center;
   }
   .beneficios img {
-    width: 50px;
-    height: 50px;
-    margin-left: 50px;
+    width: 100% !important;
+    height: 100% !important;
+    
   }
   .beneficios2 {
     flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
   }
   .beneficios2 img {
-    width: 100px;
-    height: 100px;
+    width: 100% !important;
+    height: 100% !important;
+   
   }
   .redes {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
+   
+   margin-top: 20px;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: flex-start;
+   column-gap: 20px;
+
  }
   .juegos {
     flex-direction: row ;
@@ -606,7 +616,9 @@
    display: flex;
    justify-content: center;
    font-size: 60px;
-   background-color: #000000;
+   background-image: url(../Image/nft4.png);
+   background-size: 500px;
+   background-color: grey;
   }
 
   .testimonios {
