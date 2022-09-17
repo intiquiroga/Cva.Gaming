@@ -73,7 +73,8 @@ body{
 }
 .menudes {
     display: flex;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     background-color:black;
     justify-content: space-between;
     column-gap: 80px;
@@ -111,7 +112,7 @@ body{
      
      display: flex ;
      justify-content: space-around;
-     margin-bottom: 100px;
+     margin-bottom: 0px;
      flex-direction: column;
 
     img {
@@ -130,7 +131,6 @@ body{
         border-bottom: rgb(255, 230, 6) solid 5px;
         border-left: rgb(229, 255, 0) solid 5px;
         font-size: 100px;
-        background-image: url(../Image/nft4.png);
         background-size: 500px;
         background-color: grey;
     
@@ -248,9 +248,9 @@ body{
 }
 .contenido1 {
     display: flex;
-    justify-content: space-around;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
     color: $colortexto1 ;
     align-items: center;
     background-color: black;
@@ -284,22 +284,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 90px;
     img {
-        width: 30%;
-        height: 300px;
+        width: 100%;
+        height: 100%;
     }
 }
 .beneficios2 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
 
     img{
-        width: 30%;
-        height: 300px;
+        width: 100%;
+        height: 100%;
     }
 }
 .contenido2  {
