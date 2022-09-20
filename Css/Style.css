@@ -16,9 +16,12 @@
     .menu a {
         display: none;
     }
-    .banner {
+    .line {
         display: none;
 
+    }
+    .banner{
+      display: none;
     }
     .banner img {
         display: none;
@@ -26,6 +29,12 @@
 
     .content {
         display: none;
+    }
+    .box {
+      display: none;
+    }
+    .box content {
+      display: none;
     }
     .box img {
       display: none;
@@ -47,6 +56,7 @@
     .menudes img {
         display: none;
     }
+    
 
     .menu-item,
     .menu-open-button {
@@ -577,6 +587,8 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
+    height: 100%;
   }
   .beneficios2 img {
     width: 100% !important;
@@ -619,6 +631,9 @@
    background-image: url(../Image/nft4.png);
    background-size: 500px;
    background-color: grey;
+  }
+  .testimonios_h2 h2 {
+   font-size: 30px;
   }
 
   .testimonios {
@@ -926,9 +941,26 @@
         width: 65px;
         height: 65px;
       }
-      .img_nav {
+   .img_nav {
         margin-top:10px;
         width: 60px;
         height: 60px;
         }
+   .formu {
+         display: flex;
+         width: 100%;
+     }     
+   form {
+      display: flex;
+      width: 100%;
+      height: 100%;
+   }
+   form h3 {
+      display: none;
+   }
+   section {
+      flex-direction: column;
+      flex-wrap: nowrap !important;
+   }
 }
+
