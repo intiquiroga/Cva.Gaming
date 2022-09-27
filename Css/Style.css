@@ -129,7 +129,7 @@
     /* Menuprincipal  */
     .menu {
        display: flex;
-       margin-top: 100px;
+       margin-top: 150px;
        margin-left: 165px;
        justify-content: center;
        align-items: center;
@@ -138,6 +138,7 @@
        height: 80px;
        text-align: center;
        font-size: 26px;
+       margin-bottom: 50px;
     }
     
     /* .menu-item {
@@ -471,8 +472,9 @@
       
     }
     .box .content:hover .text2{
-        left:180px;
+        left:auto;
         opacity:1;
+        margin-top: 15px;
     }
     .box .content .text1{
         color:#fff;
@@ -595,22 +597,31 @@
     height: 100% !important;
    
   }
+  .beneficios2 p {
+   font-size: 20px;
+   background-color: gold;
+  }
   .redes {
    
    margin-top: 20px;
    flex-wrap: nowrap;
    justify-content: center;
    align-items: flex-start;
-   column-gap: 20px;
+   column-gap: 50px;
 
+
+ }
+ .redes a {
+   background-color: transparent;
  }
   .juegos {
     flex-direction: row ;
     flex-wrap: wrap;
 }
   .juegos img {
-    margin-top: 250px;
+    margin-top: 0px;
     position: relative;
+    width: 100%;
 }
   .juegos_texto  {
     flex-wrap: wrap;

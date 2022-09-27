@@ -25,7 +25,7 @@ body {
 
 .redes {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   column-gap: 50px;
   margin-top: 50px;
   background-color: black; }
@@ -140,12 +140,12 @@ a {
 
 .juegos {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   background-color: transparent;
   margin-bottom: 10px; }
   .juegos img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     display: flex;
     position: relative;
     background-color: transparent; }
