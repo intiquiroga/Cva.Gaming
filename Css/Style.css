@@ -56,6 +56,9 @@
     .menudes img {
         display: none;
     }
+    .formulario h2{
+      display: none;
+    }
     
 
     .menu-item,
@@ -598,7 +601,7 @@
    
   }
   .beneficios2 p {
-   font-size: 20px;
+   font-size: 10px !important;
    background-color: gold;
   }
   .redes {
